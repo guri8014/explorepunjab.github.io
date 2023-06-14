@@ -23,6 +23,30 @@ rd.addEventListener('click',()=>{
     }
 })
 
+let rd1 = document.querySelector('.readmore2')
+let txt1 = document.querySelector('.txt2')
+rd1.addEventListener('click',()=>{
+    txt1.classList.toggle('show-more')
+    if(rd1.innerText==='Read-more'){
+        rd1.innerText = 'Read-less'
+    }
+    else{
+        rd1.innerText = 'Read-more'
+    }
+})
+
+let rd2 = document.querySelector('.readmore3')
+let txt2 = document.querySelector('.txt3')
+rd2.addEventListener('click',()=>{
+    txt2.classList.toggle('show-more')
+    if(rd2.innerText==='Read-more'){
+        rd2.innerText = 'Read-less'
+    }
+    else{
+        rd2.innerText = 'Read-more'
+    }
+})
+
 burger = document.querySelector('.burger')
  nav = document.querySelector('.nav')
  mainimg = document.querySelector('.mainimg')   
