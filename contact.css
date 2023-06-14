@@ -537,6 +537,9 @@ form img{
         height: 156px;
     }
 
+    .nav-link-logo img {
+        padding-top: 12px;
+    }
 
 }
 
@@ -593,7 +596,7 @@ form img{
     } */
 
     #btn3 {
-        width: 147px;
+        width: 56px;
     }
 }
 
